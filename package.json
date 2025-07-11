@@ -17,8 +17,8 @@
 		"tag": "alpha"
 	},
 	"scripts": {
-		"test": "jest",
-		"test:coverage": "jest --coverage",
+		"test": "jest --passWithNoTests",
+		"test:coverage": "jest --passWithNoTests --coverage",
 		"tscheck": "tsc --noEmit",
 		"docs": "npx typedoc",
 		"docs:expand": "npx typedoc --entryPointStrategy Expand src",
