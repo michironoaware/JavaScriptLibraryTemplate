@@ -1,3 +1,5 @@
+name: Publish to npm (Manual)
+
 on:
     workflow_dispatch:
         inputs:
