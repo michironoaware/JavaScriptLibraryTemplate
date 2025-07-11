@@ -16,8 +16,8 @@ on:
                     - restricted
 
 jobs:
-    release:
-        name: Build and Publish
+    publish:
+        name: Publish to npm
         runs-on: ubuntu-latest
 
         steps:

@@ -1,12 +1,11 @@
-name: Release
-
 on:
     push:
         branches:
             - main
 
 jobs:
-    release:
+    publish:
+        name: Publish everywhere
         runs-on: ubuntu-latest
 
         permissions:
